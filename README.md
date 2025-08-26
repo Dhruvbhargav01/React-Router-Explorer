@@ -1,12 +1,98 @@
-# React + Vite
+# React-Router-Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application demonstrating **React Router** for multi-page navigation, dynamic routes, and API integration. This project serves as a learning and showcase platform for building structured React apps.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **React Router Integration**  
+  Navigate seamlessly between pages: Home, About, Contact, User, and GitHub section.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Dynamic Routing**  
+  View user-specific pages using URL parameters.
+
+- **API Integration**  
+  Fetch and display GitHub user information dynamically.
+
+- **Landing Page Design**  
+  Hero section, call-to-action buttons, and images arranged professionally.
+
+- **Responsive Layout**  
+  Mobile-friendly design using Flexbox and CSS Grid.
+
+- **Contact Form**  
+  Functional and styled contact section.
+
+- **Modern UI**  
+  Clean layout with shadows, rounded corners, and hover effects.
+
+---
+
+## Project Structure
+
+src/
+├─ components/
+│ ├─ Home/
+│ ├─ About/
+│ ├─ Contact/
+│ ├─ User/
+│ └─ Github/
+├─ App.jsx
+├─ index.jsx
+└─ index.css
+
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Dhruvbhargav01/react-router-explorer.git
+cd react-router-explorer
+npm install
+npm run dev
+
+Usage
+
+Home Page: Landing page with hero section, call-to-action buttons, and main content.
+
+About Page: Information about React development with an illustrative image.
+
+Contact Page: Responsive contact form with info boxes.
+
+User Page: Dynamic route example (/user/:userid).
+
+GitHub Page: Fetch and display GitHub user info from API.
+
+Technologies Used
+
+React
+
+React Router DOM
+
+JavaScript (ES6+)
+
+CSS / Flexbox / Grid
+
+Git & GitHub
+
+Author
+
+Dhruv Bhargav
+Email: itsdhruv008@gmail.com
+
+GitHub: Dhruvbhargav01
+
+
+
+---
+
+Once you save this in your project as `README.md`, your next steps are:
+
+```bash
+git add README.md
+git commit -m "Add complete README for React-Router-Explorer"
+git push -u origin main
