@@ -1,0 +1,55 @@
+.github-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.github-card {
+  max-width: 400px;
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.github-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.github-username {
+  color: #555;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.github-bio {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.github-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.github-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #24292f;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.github-link:hover {
+  background-color: #444c56;
+}

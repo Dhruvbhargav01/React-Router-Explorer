@@ -1,0 +1,114 @@
+/* --- Footer Container --- */
+.footer {
+  position: relative;           /* like contact-section */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #111;
+  color: #fff;
+  padding: 2rem 1.5rem 2rem 1.5rem; /* remove extra bottom padding */
+  margin: 0;                    /* zero bottom margin */
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 200px;            /* adjust as needed */
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Top Section */
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footer-logo {
+  flex: 1 1 200px;
+}
+
+.footer-logo-img {
+  width: 120px;
+}
+
+.footer-links {
+  display: flex;
+  flex: 3 1 600px;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.footer-section h2 {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section li {
+  margin: 0.25rem 0;
+}
+
+.footer-link {
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+/* Divider */
+.footer-divider {
+  border: 0;
+  border-top: 1px solid #333;
+  margin: 1rem 0;
+}
+
+/* Bottom Section */
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+  gap: 1rem;
+}
+
+.footer-text {
+  color: #aaa;
+  margin: 0;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  transition: color 0.2s ease;
+}
+
+.footer-icon:hover {
+  color: #fff;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}

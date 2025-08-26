@@ -1,0 +1,126 @@
+.contact-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+   /* remove fixed 700px height */
+  background: #fff;
+  padding: 2rem 0;  /* reduce padding */
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.contact-wrapper {
+  margin-top: 1.5rem;  /* slightly smaller top margin */
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem; /* add gap between grid items */
+}
+
+@media (min-width: 768px) {
+  .contact-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem; /* spacing between form and info */
+  }
+}
+
+.contact-info {
+  background: #f3f4f6; /* gray-100 */
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.contact-info h1 {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 800;
+  color: #1f2937; /* gray-800 */
+  letter-spacing: -0.025em;
+}
+
+@media (min-width: 640px) {
+  .contact-info h1 {
+    font-size: 2.25rem; /* sm:text-4xl */
+  }
+}
+
+.contact-info p {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #4b5563;
+  margin-top: 0.5rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  color: #4b5563;
+  font-weight: 600;
+}
+
+.contact-item .icon {
+  width: 2rem;
+  height: 2rem;
+  color: #6b7280; /* gray-500 */
+}
+
+.contact-item div {
+  margin-left: 1rem;
+  font-size: 1rem;
+  width: auto;
+}
+
+/* FORM STYLES */
+.contact-form {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* removed center to reduce extra space */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+
+.form-group input {
+  margin-top: 0.5rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  border: 1px solid #9ca3af;
+  color: #1f2937;
+  font-weight: 600;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.form-group input:focus {
+  border-color: #ea580c;
+}
+
+.submit-btn {
+  margin-top: 1rem;  /* slightly more spacing for consistency */
+  padding: 0.75rem 1.5rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  background: #b45309;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  max-width: 8rem;
+}
+
+.submit-btn:hover {
+  background: #ea580c;
+}
+
+/* Optional: reduce bottom margin before footer */
+.contact-section + footer {
+  margin-top: 0;
+}
