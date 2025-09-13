@@ -1,5 +1,4 @@
 # React-Router-Explorer
-
 A modern React application demonstrating **React Router** for multi-page navigation, dynamic routes, and API integration. This project serves as a learning and showcase platform for building structured React apps.
 
 ---
